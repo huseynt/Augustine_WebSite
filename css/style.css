@@ -1,0 +1,326 @@
+.main_collection-left-button, .main_refresh-right-button, .header_right {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_right-link, .footer_left-link, .main_grid-card-info, .main_collection-left-info, .main_refresh-right-info, .main_shopNow-block {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_right-head, .main_grid-card-head, .header_head {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.main_never-info, .main_collection-left-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.main_inspired-info, .main_refresh-right-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 43px;
+  font-weight: 400;
+}
+
+.main_never-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.main_refresh-right-button {
+  padding: 10px 25px;
+  background-color: #fff;
+}
+
+.main_refresh-right-button {
+  padding: 12px 25px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+}
+
+.main_never-form-button, .main_grid-card-button, .main_collection-left-button {
+  padding: 12px 25px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.fixed {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.fixed_photo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header_button {
+  border: none;
+}
+.header_right {
+  justify-content: flex-end;
+}
+.header_right-list {
+  column-gap: 20px;
+}
+
+.main_shopNow {
+  padding: 20px 10%;
+  background-color: black;
+  color: white;
+}
+.main_shopNow-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+.main_shopNow-block-info {
+  margin: 0;
+}
+@media screen and (max-width: 991px) {
+  .main_shopNow-block-info {
+    font-size: 14px;
+  }
+}
+.main_shopNow-block-link {
+  color: #fff;
+}
+@media screen and (max-width: 991px) {
+  .main_shopNow-block-link {
+    font-size: 14px;
+  }
+}
+.main_refresh {
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 15px;
+  background-color: #451314;
+}
+@media screen and (max-width: 991px) {
+  .main_refresh {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.main_refresh-left-img {
+  width: 100%;
+  max-height: 650px;
+}
+.main_refresh-right {
+  padding: 50px 0;
+  color: #fff;
+}
+.main_refresh-right-head {
+  margin-bottom: 20px;
+}
+.main_collection {
+  margin: 0;
+  padding: 100px 10%;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+  background-color: #fff;
+}
+@media screen and (max-width: 991px) {
+  .main_collection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+.main_collection-left {
+  color: #000;
+}
+.main_collection-left-head {
+  margin-bottom: 20px;
+}
+.main_collection-left-button {
+  margin-top: 15px;
+}
+.main_collection-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5px;
+}
+@media screen and (max-width: 991px) {
+  .main_collection-right {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+}
+.main_collection-right-twogirl {
+  min-height: 480px;
+  width: 100%;
+  min-width: 180px;
+  background-image: url("../assets/two_girl.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_collection-right-onegirl {
+  min-height: 480px;
+  width: 100%;
+  min-width: 180px;
+  background-image: url("../assets/one_girl.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_collection-right-flower {
+  min-height: 480px;
+  width: 100%;
+  min-width: 180px;
+  background-image: url("../assets/flower.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main_inspired {
+  background-color: transparent;
+  text-align: center;
+}
+.main_inspired-info {
+  padding: 180px 0;
+  color: #fff;
+  margin: 0;
+}
+@media screen and (max-width: 991px) {
+  .main_inspired-info {
+    font-size: 20px;
+  }
+}
+.main_grid {
+  padding: 50px 10%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background-color: #fff;
+  column-gap: 20px;
+}
+@media screen and (max-width: 991px) {
+  .main_grid {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+}
+.main_grid-card {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 15px;
+}
+.main_grid-card-photo-img {
+  width: 100%;
+  min-height: 280px;
+  max-height: 350px;
+}
+.main_grid-card-button {
+  margin: 0;
+}
+.main_never {
+  background-image: url("../assets/2_girl_background.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 10%;
+}
+.main_never-info {
+  color: #fff;
+}
+@media screen and (max-width: 991px) {
+  .main_never-info {
+    font-size: 20px;
+  }
+}
+.main_never-head {
+  color: #fff;
+}
+@media screen and (max-width: 991px) {
+  .main_never-head {
+    font-size: 20px;
+  }
+}
+.main_never-form {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  row-gap: 15px;
+}
+.main_never-form-text {
+  padding: 10px 15px;
+  min-width: 350px;
+}
+@media screen and (max-width: 991px) {
+  .main_never-form-text {
+    min-width: 50px;
+  }
+}
+.footer {
+  padding: 100px 10%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+@media screen and (max-width: 991px) {
+  .footer {
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+  }
+}
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.footer_left-link {
+  color: #000;
+}
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.footer_right-link {
+  color: #000;
+}
+.footer_right-list {
+  display: flex;
+  column-gap: 15px;
+}/*# sourceMappingURL=style.css.map */
