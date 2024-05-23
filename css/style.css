@@ -86,6 +86,9 @@ body {
 .header_button {
   border: none;
 }
+.header_button:focus {
+  box-shadow: 0 0 0 0;
+}
 .header_right {
   justify-content: flex-end;
 }

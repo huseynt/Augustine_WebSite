@@ -29,31 +29,32 @@
         <a class="header_head navbar-brand" href="#">Augustine</a>
 
         <!-- header mobile burger-->
-        <button class="header_button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="header_button-spn navbar-toggler-icon"></span>
+        <button class="header_button navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="header_button-spn navbar-toggler-icon"></span>
         </button>
 
         <!-- header list-->
         <div class="header_right collapse navbar-collapse" id="navbarNav">
           <ul class="header_right-list navbar-nav">
-            <li class="header_right-list-item nav-item active">
-              <a class="header_right-list-item-link nav-link" href="#">Shop</a>
+            <li class="header_right-list-item nav-item">
+              <a class="header_right-list-item-link nav-link active" aria-current="page" href="#main">Home</a>
             </li>
             <li class="header_right-list-item nav-item">
-              <a class="header_right-list-item-link nav-link" href="#">About</a>
+              <a class="header_right-list-item-link nav-link" href="#about">About</a>
             </li>
             <li class="header_right-list-item nav-item">
-              <a class="header_right-list-item-link nav-link" href="#">Contact</a>
+              <a class="header_right-list-item-link nav-link" href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
         </div>
       </header>
 
+
       <!-- main -->
       <main class="main">
 
         <!-- shop now section -->
-        <section class="main_shopNow">
+        <section id="main" class="main_shopNow">
             <div class="main_shopNow-block">
                 <p class="main_shopNow-block-info">FREE Shipping on orders over $40</p>
                 <a class="main_shopNow-block-link" href="#">Shop now</a>
@@ -95,7 +96,7 @@
         </section>
 
         <!----------- grid section------- -->
-        <section class="main_grid">
+        <section id="about" class="main_grid">
             <div class="main_grid-card">
                 <div class="main_grid-card-photo">
                     <img class="main_grid-card-photo-img" src="./assets/two_girl_card.avif" alt="two_girl">
@@ -129,7 +130,7 @@
 
       </main>
 
-      <footer class="footer">
+      <footer id="footer" class="footer">
         <div class="footer_left">
             <a class="footer_left-link" href="#">Home</a>
             <a class="footer_left-link" href="#">Contact us</a>
