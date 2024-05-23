@@ -35,11 +35,6 @@
 }
 
 .main_refresh-right-button {
-  padding: 10px 25px;
-  background-color: #fff;
-}
-
-.main_refresh-right-button {
   padding: 12px 25px;
   background-color: #fff;
   border: none;
@@ -216,6 +211,13 @@ body {
   background-color: transparent;
   text-align: center;
 }
+@media screen and (max-width: 991px) {
+  .main_inspired {
+    background: url("../assets/background_img.avif");
+    background-size: cover;
+    background-position: center;
+  }
+}
 .main_inspired-info {
   padding: 180px 0;
   color: #fff;
@@ -289,7 +291,7 @@ body {
 }
 @media screen and (max-width: 991px) {
   .main_never-form-text {
-    min-width: 50px;
+    min-width: 30px;
   }
 }
 .footer {

@@ -223,6 +223,12 @@ body {
         background-color: transparent;
         text-align: center;
 
+        @include mobile {
+            background: url('../assets/background_img.avif');
+            background-size: cover;
+            background-position: center;
+        }
+
         &-info {
             padding: 180px 0;
             @extend %font_l;
@@ -316,7 +322,7 @@ body {
                 min-width: 350px;
 
                 @include mobile {
-                    min-width: 50px;
+                    min-width: 30px;
                 }
             }
 
